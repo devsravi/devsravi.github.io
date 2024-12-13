@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jai Mata di</title>
+    <meta name="description" content="Hi, I'm Rvai Kumar">
+    <meta name="keywords" content="Jai Mata di">
+    <meta name="author" content="Ravi Kumar (@devsravi)">
+    <meta property="og:image"
+        content="https://lh5.googleusercontent.com/p/AF1QipMZPm-nvcBUURIjH0jJHVAuI-ATTnWTxU_Lwrok=w203-h360-k-no" />
+    <meta property="og:title" content="Jai Mata di" />
+    <meta property="og:description" content="Jai Mata di" />
+    <link rel="icon" type="image/x-icon"
+        href="https://lh5.googleusercontent.com/p/AF1QipMZPm-nvcBUURIjH0jJHVAuI-ATTnWTxU_Lwrok=w203-h360-k-no">
+    <!-- Font Awesome if you need it -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <!--Replace with your tailwind.css once created-->
+</head>
+<!-- start webpushr code -->
+<script>(function (w, d, s, id) { if (typeof (w.webpushr) !== 'undefined') return; w.webpushr = w.webpushr || function () { (w.webpushr.q = w.webpushr.q || []).push(arguments) }; var js, fjs = d.getElementsByTagName(s)[0]; js = d.createElement(s); js.id = id; js.async = 1; js.src = "https://cdn.webpushr.com/app.min.js"; fjs.parentNode.appendChild(js); }(window, document, 'script', 'webpushr-jssdk')); webpushr('setup', { 'key': 'BIv5tsWxHxw2mSUOy8mIKU8jD5335YgQNMNHAwDz-1FuaOccFm-BWilAulFMnvIGwfu9cxTRs4347qETpd37OIQ' });</script>
+<!-- end webpushr code -->
+
+<body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover overflow-hidden"
+    style="background-color: coral;">
+    <div class="loader"></div>
+    <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+        <div id="profile"
+            class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+            <div class="p-4 md:p-12 text-center lg:text-left">
+                <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
+                    style="background-image: url('https://lh5.googleusercontent.com/p/AF1QipMZPm-nvcBUURIjH0jJHVAuI-ATTnWTxU_Lwrok=w203-h360-k-no')">
+                </div>
+                <h1 class="text-3xl font-bold pt-8 lg:pt-0">Jai Mata Di</h1>
+                <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-red-500 opacity-25"></div>
+                <p class="pt-4 text-base font-bold flex items-left justify-left lg:justify-start" <img
+                    class="h-4 fill-current text-red-700 pr-4"
+                    src="https://img.icons8.com/?size=100&id=ecnej834DMur&format=png&color=000000">
+                    MataDeen Purwa,
+                    Danapurkyampur,Dariyabad,
+                    Barabanki, Uttar Pradesh (225405)
+                </p>
+                <h3 class="pt-8 text-sm">JAI MATA DI WEBSITE COMMING SOON....</h3>
+
+                <div class="pt-12 pb-8 text-center">
+                    <a href="tel:+91-6388778933"
+                        class="bg-red-700 hover:bg-red-900 text-white font-bold py-2 px-4 rounded-full">
+                        +91-6388778933
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!--Img Col-->
+        <div class="w-full lg:w-2/5">
+            <!-- Big profile image for side bar (desktop) -->
+            <img src="https://lh5.googleusercontent.com/p/AF1QipMZPm-nvcBUURIjH0jJHVAuI-ATTnWTxU_Lwrok=w203-h360-k-no"
+                class="rounded-none shadow-2xl hidden lg:block">
+
+        </div>
+
+
+        <!-- Pin to top right corner -->
+        <div class="absolute top-0 right-0 h-12 w-18 p-4">
+            <button class="js-change-theme focus:outline-none">🌙</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+    <script>
+        //Init tooltips
+        tippy('.link', {
+            placement: 'bottom'
+        })
+
+        //Toggle mode
+        const toggle = document.querySelector('.js-change-theme');
+        const body = document.querySelector('body');
+        const profile = document.getElementById('profile');
+
+
+        toggle.addEventListener('click', () => {
+
+            if (body.classList.contains('text-gray-900')) {
+                toggle.innerHTML = "☀️";
+                body.classList.remove('text-gray-900');
+                body.classList.add('text-gray-100');
+                profile.classList.remove('bg-white');
+                profile.classList.add('bg-gray-900');
+            } else {
+                toggle.innerHTML = "🌙";
+                body.classList.remove('text-gray-100');
+                body.classList.add('text-gray-900');
+                profile.classList.remove('bg-gray-900');
+                profile.classList.add('bg-white');
+
+            }
+        });
+
+    </script>
+</body>
+
+</html>
